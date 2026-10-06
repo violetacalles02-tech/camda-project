@@ -1,6 +1,4 @@
 # --- Datos (CAMDA: solo se usa bajo sus términos; no se sube al repo) ---
-*.csv
-*.CSV
 *.json
 *.JSON
  
