@@ -6,7 +6,6 @@
  
 
 !dbt-project/seeds/condition_mapping.csv
-!data/camda_clean.csv
  
 # --- Credenciales y entorno ---
 .env
