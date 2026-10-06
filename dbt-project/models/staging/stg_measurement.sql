@@ -1,0 +1,26 @@
+
+select
+    null::INTEGER     as measurement_id,
+    null::INTEGER     as person_id,
+    null::INTEGER     as measurement_concept_id,
+    null::DATE        as measurement_date,
+    null::TIMESTAMP   as measurement_datetime,
+    null::TEXT        as measurement_time,
+    null::INTEGER     as measurement_type_concept_id,
+    null::INTEGER     as operator_concept_id,
+    null::NUMERIC     as value_as_number,
+    null::INTEGER     as value_as_concept_id,
+    null::INTEGER     as unit_concept_id,
+    null::NUMERIC     as range_low,
+    null::NUMERIC     as range_high,
+    null::INTEGER     as provider_id,
+    null::INTEGER     as visit_occurrence_id,
+    null::INTEGER     as visit_detail_id,
+    null::TEXT        as measurement_source_value,
+    null::INTEGER     as measurement_source_concept_id,
+    null::TEXT        as unit_source_value,
+    null::INTEGER     as unit_source_concept_id,
+    null::TEXT        as value_source_value,
+    null::INTEGER     as measurement_event_id,
+    null::INTEGER     as meas_event_field_concept_id
+where false

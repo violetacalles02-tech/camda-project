@@ -1,0 +1,30 @@
+# --- Datos (CAMDA: solo se usa bajo sus términos; no se sube al repo) ---
+*.csv
+*.CSV
+*.json
+*.JSON
+ 
+# Excepciones para los seeds de dbt (el mapeo de Usagi SÍ conviene versionarlo).
+# Descomenta la línea que corresponda a la carpeta donde estén tus seeds:
+# !seeds/**/*.csv
+# !data/mappings/**/*.csv
+ 
+# --- Credenciales y entorno ---
+.env
+.env.*
+!.env.example
+ 
+# --- dbt ---
+target/
+dbt_packages/
+logs/
+dbt_internal_packages/
+ 
+# --- Python / Jupyter / editor ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.vscode/
+.DS_Store
+ 

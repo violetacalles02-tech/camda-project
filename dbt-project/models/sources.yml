@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: base
+    schema: "{{ env_var('OMOP_BASE_SCHEMA') }}"
+    tables:
+      - name: camda_diagnoses
+
+
+  - name: vocabularies
+    schema: "{{ env_var('OMOP_VOCAB_SCHEMA') }}"
+    tables:
+      - name: concept
+      - name: vocabulary
+      - name: domain
+      - name: concept_class
+      - name: concept_relationship
+      - name: relationship
+      - name: concept_synonym
+      - name: concept_ancestor
+      - name: source_to_concept_map
+      - name: drug_strength
+      
+  
